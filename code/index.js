@@ -1,1 +1,1 @@
-var add = function () { return 'add'; };
+var adda = function () { return 'add'; };
