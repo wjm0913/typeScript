@@ -1,1 +1,1 @@
-var add = () => 'add';
+var adda = () => 'add';
