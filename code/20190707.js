@@ -7,7 +7,7 @@ var Person = /** @class */ (function () {
 // 生成一个对象
 var aPerson = new Person();
 // 设置 firstName 的内容
-aPerson.firstName = "rails365";
+aPerson.firstName = "wjm0913";
 // 读取 firstName 的内容
 console.log(aPerson.firstName);
 var Movie = /** @class */ (function () {
@@ -28,7 +28,7 @@ var Movie = /** @class */ (function () {
     return Movie;
 }());
 // 生成一个 Object
-var m = new Movie("诱人的 TypeScript 视频教程", 15);
+var m = new Movie("哈哈", 15);
 // m.name = "诱人的 TypeScript 视频教程 #11 函数 - Rest Parameters"
 console.log(m.name);
 console.log(m.display_play_count('--------'));
@@ -36,7 +36,7 @@ m.increase_play_count();
 console.log(m.display_play_count('--------'));
 m.increase_play_count();
 console.log(m.display_play_count('--------'));
-var m1 = new Movie("诱人的 GraphQL 视频教程 #1 介绍", 1);
+var m1 = new Movie("嘻嘻", 1);
 console.log(m1.name);
 console.log(m1.display_play_count('--------'));
 m1.increase_play_count();

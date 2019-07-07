@@ -9,7 +9,7 @@ class Person {
 let aPerson = new Person();
 
 // 设置 firstName 的内容
-aPerson.firstName = "rails365";
+aPerson.firstName = "wjm0913";
 // 读取 firstName 的内容
 console.log(aPerson.firstName);
 
@@ -37,7 +37,7 @@ class Movie {
 }
 
 // 生成一个 Object
-let m = new Movie("诱人的 TypeScript 视频教程", 15);
+let m = new Movie("哈哈", 15);
 
 // m.name = "诱人的 TypeScript 视频教程 #11 函数 - Rest Parameters"
 console.log(m.name);
@@ -47,7 +47,7 @@ console.log(m.display_play_count('--------'));
 m.increase_play_count();
 console.log(m.display_play_count('--------'));
 
-let m1 = new Movie("诱人的 GraphQL 视频教程 #1 介绍", 1);
+let m1 = new Movie("嘻嘻", 1);
 
 console.log(m1.name);
 console.log(m1.display_play_count('--------'));
